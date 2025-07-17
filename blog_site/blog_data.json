@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "The Rise of AI Companions",
+    "author": "Naveen Garg",
+    "date": "2025-07-10",
+    "content": "Exploring how AI tools like Copilot are reshaping the way we learn, create, and connect.",
+    "imageUrl": "https://picsum.photos/"
+  },
+  {
+    "id": 2,
+    "title": "Minimalist Web Design Trends",
+    "author": "Naveen Garg",
+    "date": "2025-07-09",
+    "content": "A dive into clean, accessible, and user-friendly design in modern blogging platforms.",
+    "imageUrl": "https://example.com/images/minimalist-design.jpg"
+  },
+  {
+    "id": 3,
+    "title": "How APIs Power the Internet",
+    "author": "Naveen Garg",
+    "date": "2025-07-08",
+    "content": "A beginner's guide to understanding APIs and integrating them into your Flask projects.",
+    "imageUrl": "https://example.com/images/api-power.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Tips for Clean CSS Architecture",
+    "author": "Naveen Garg",
+    "date": "2025-07-07",
+    "content": "Keep your stylesheets sleek, modular, and readable with these best practices.",
+    "imageUrl": "https://example.com/images/css-tips.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Breaking into Web Development",
+    "author": "Naveen Garg",
+    "date": "2025-07-06",
+    "content": "Start your journey into HTML, CSS, JavaScript, and Flask with practical tips.",
+    "imageUrl": "https://example.com/images/web-dev.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Dark Mode vs Light Mode UX",
+    "author": "Naveen Garg",
+    "date": "2025-07-05",
+    "content": "A user experience showdown between aesthetic and accessibility concerns.",
+    "imageUrl": "https://example.com/images/dark-vs-light.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Why Flask is Perfect for Beginners",
+    "author": "Naveen Garg",
+    "date": "2025-07-04",
+    "content": "Flask’s simplicity and flexibility make it ideal for learning web app development.",
+    "imageUrl": "https://example.com/images/flask-beginners.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Deploying Your App with Render",
+    "author": "Naveen Garg",
+    "date": "2025-07-03",
+    "content": "A step-by-step guide to getting your Flask project online using Render.",
+    "imageUrl": "https://example.com/images/render-deploy.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Understanding RESTful Routing",
+    "author": "Naveen Garg",
+    "date": "2025-07-02",
+    "content": "What REST means and how to design routes that make sense for your app’s logic.",
+    "imageUrl": "https://example.com/images/restful-routing.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Debugging Like a Pro in Flask",
+    "author": "Naveen Garg",
+    "date": "2025-07-01",
+    "content": "Learn the techniques to chase down bugs and keep your Flask app running clean.",
+    "imageUrl": "https://example.com/images/flask-debug.jpg"
+  }
+]
