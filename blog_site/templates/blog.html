@@ -30,6 +30,7 @@
       {% endif %}
       <p>{{ post.content }}</p>
       <p>by <em> {{ post.author }} </em> on  {{ post.date }}</p>
+      <a href="{{ url_for('get_blog', id = post.id) }}"> Read More</a>
     </article>
     {% endfor %}
   </main>

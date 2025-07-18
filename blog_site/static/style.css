@@ -63,6 +63,7 @@ main {
 .news-card:hover {
   transform: translateY(-5px);
   box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.1); /* elevated effect */
+  background-color: rgb(245, 237, 228);
 }
 
 .news-card h2 {

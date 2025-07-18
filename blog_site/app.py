@@ -1,4 +1,4 @@
-from flask import Flask, render_template, json, jsonify
+from flask import Flask, render_template, json, url_for
 import requests
 
 app = Flask(__name__)
@@ -9,6 +9,12 @@ def hello():
 
 @app.route("/blog")
 def blog():
+    with open("./blog_data.json", "r") as file:
+        blog_data = json.load(file)
+    return render_template("blog.html", posts=blog_data)
+
+@app.route("/blog/<id>")
+def get_blog(id):
     with open("./blog_data.json", "r") as file:
         blog_data = json.load(file)
     return render_template("blog.html", posts=blog_data)
