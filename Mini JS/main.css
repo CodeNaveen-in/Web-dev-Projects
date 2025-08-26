@@ -1,0 +1,133 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Henny+Penny&display=swap');
+
+/* Import Material Icons */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+/* Import Material Outline Icons */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons+Outlined');
+
+/* Define your color palette */
+:root {
+  --lemon-lime: #ecff56ff;
+  --alabaster: #f1f1e8ff;
+  --fluorescent-cyan: #7bfdecff;
+  --gray: #7f7f7fff;
+  --white: #ffffffff;
+  --raisin-black: #212023ff;
+  --jet: #343436ff;
+}
+
+/* Icons usage sets */
+.material-icons {
+  font-size: 24px;
+  vertical-align: middle;
+  color: var(--raisin-black);
+}
+
+.material-icons-outlined {
+  font-size: 24px;
+  vertical-align: middle;
+  color: var(--jet);
+}
+
+.material-icons-white {
+  color: var(--white);
+}
+
+.material-icons-lemon {
+  color: var(--lemon-lime);
+}
+
+.material-icons-outlined-gray {
+  color: var(--gray);
+}
+
+button {
+  font-size: 18px;
+  font-family: 'Source Code Pro';
+  font-weight: 700;
+  background-color: var(--lemon-lime);
+  padding: 16px 24px;
+  border-radius: 50px;
+  max-width: 50vw;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Source Code Pro';
+}
+
+input, label {
+  font-size: 18px;
+  padding: 16px;
+  border-radius: 16px;
+  border: 2px solid gray;
+  color: var(--raisin-black);
+  max-width: 70vw;
+}
+
+label{
+  border: 0;
+  padding: 0px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 40vw;
+}
+
+section {
+  transition: transform 0.4s ease-in-out;
+  padding: 40px;
+  margin: 50px;    
+  border-radius: 50px;
+}
+
+section:hover {
+  transform: scale(1.2);
+  transform-origin: center;
+}
+
+li{
+  font-size: 18px;
+}
+
+.bg {
+  background-color: var(--alabaster);
+  background-image:  linear-gradient(#7f7f7f 0.9px, transparent 0.9px), linear-gradient(to right, #7f7f7f 0.9px, #f1f1e8 0.9px);
+  background-size: 18px 18px;
+  display: flex;
+  flex-flow: wrap column;
+  align-items: center;
+  justify-items: center;
+}
+
+#main {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+}
+
+h1,h3,h5 {
+  text-align: center;
+  font-family: 'Henny Penny';
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: 'Henny Penny';
+}
+
+.feature {
+  background-color: var(--lemon-lime);
+  box-shadow: 16px 8px 8px var(--gray);
+}
+
+.about {
+  font-size: 1.3rem;
+  line-height: 123%;
+  text-align: center;
+  text-decoration: wavy;
+}

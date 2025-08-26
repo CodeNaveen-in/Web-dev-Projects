@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Temperature Converter </title>
+    <link rel="stylesheet" href="../main.css">
+</head>
+<body class="bg">
+    <section id="main">
+        <h3>Temperature Converter</h3>
+        <label for="cl"> Temperature in celsius</label>
+        <input type="number" id="cl" name="cl" onchange=temp_change(event)>
+        <br>
+        <label for="fn">Temp in fahrenheit</label>
+        <input type="number" id="fn" name="fn" onchange=temp_change(event)>
+        <br>
+        <label for="kn">Temp in Kelvin</label>
+        <input type="number" id="kn" name="kn" onchange=temp_change(event)>
+    </section>
+
+    <section class="feature">
+        <p class="about">The aim is to get the temperature converted and displayed</p>
+        <h3>Steps to follow</h3>
+        <ol>
+            <li>Enter your temperature to any row</li>
+            <li>Press Enter to see results </li>
+        </ol>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
