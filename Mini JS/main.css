@@ -131,3 +131,45 @@ h3 {
   text-align: center;
   text-decoration: wavy;
 }
+
+.recipe-card {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 400px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.recipe-card:hover {
+  transform: scale(1.02);
+}
+
+.recipe-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.recipe-card h3 {
+  font-size: 1.4rem;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.recipe-card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.recipe-card a {
+  color: var(--jet);
+  font-size: larger;
+  padding: 10px;
+  text-decoration: none;
+}
