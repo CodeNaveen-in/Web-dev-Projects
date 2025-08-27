@@ -170,6 +170,105 @@ h3 {
 .recipe-card a {
   color: var(--jet);
   font-size: larger;
+  font-weight: 600;
   padding: 10px;
   text-decoration: none;
+}
+
+#dice {
+  text-align: center;
+  font-weight: 500;
+  font-size: 6rem;
+}
+
+.roll-animation {
+    /* Instantly rotate the image when the class is added */
+    transform: rotate(360deg);
+    /* Make the transition smooth over 1 second */
+    transition: transform 1s ease-in-out;
+}
+
+#Result li {
+  text-align: center;
+  font-size: 2rem;
+  background-color: var(--gray);
+  padding: 8px 24px;
+  margin: 16px;
+  font-weight: 400;
+  border-radius: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* background: linear-gradient(135deg, #1f2937, #111827); */
+    color: #d1d5db;
+}
+
+/* Styling for the main timer card */
+.timer-card {
+    background-color: #1f2937;
+    padding: 2.5rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+/* Styling for the timer text */
+.timer-display {
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+    margin-top: 1rem;
+    color: #f3f4f6;
+}
+
+/* Styling for the buttons */
+.button-wrapper {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.action-button {
+    padding: 0.75rem 2rem;
+    font-weight: 600;
+    border-radius: 0.75rem;
+    transition: all 0.2s ease-in-out;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    color: #d1d5db;
+}
+
+#start {
+    background-color: #4ade80;
+    color: #1f2937;
+}
+#start:hover {
+    background-color: #22c55e;
+    transform: translateY(-2px);
+}
+
+#stop {
+    background-color: #f87171;
+    color: #1f2937;
+}
+#stop:hover {
+    background-color: #ef4444;
+    transform: translateY(-2px);
+}
+
+#reset {
+    background-color: #60a5fa;
+    color: #1f2937;
+}
+#reset:hover {
+    background-color: #3b82f6;
+    transform: translateY(-2px);
 }
