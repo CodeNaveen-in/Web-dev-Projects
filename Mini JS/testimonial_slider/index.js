@@ -11,7 +11,7 @@ const testimonials = [
 
 let pos = 0;
 const users = [0, 1, 2, 3, 4];
-const PATH = '../image/user'
+const PATH = '../assets/image/user'
 
 function test_change() {
     pos +=  1;

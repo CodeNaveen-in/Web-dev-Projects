@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Converter</title>
+    <link rel="stylesheet" href="../main.css">
+</head>
+<body class="bg">
+    <section id="main">
+        <h1>Weight Converter</h1>
+
+        <label for="kilog">Enter the weight in kg</label>
+        <input type="number" id="kilog" onchange="weight_change(event)"> <br>
+
+        <label for="ounce">Enter the weight in ounce</label>
+        <input type="number" id="ounce" onchange="weight_change(event)"> <br>
+
+        <label for="pound">Enter the weight in pound</label>
+        <input type="number" id="pound" onchange="weight_change(event)"> <br>
+
+        <label for="gram">Enter the weight in gram</label>
+        <input type="number" id="gram" onchange="weight_change(event)"> <br>
+
+        <p id="result"></p>
+
+    </section>
+    <section class="feature">
+        <h3 class="about">The aim is to build a weight converter <br> that gives other values for one type of weight given</h3>
+        <ol>
+            <li>Enter the required weight in input</li>
+            <li>Press enter to get the value</li>
+        </ol>
+    </section>
+
+    <script src="./index.js"></script>
+</body>
+</html>

@@ -272,3 +272,32 @@ h3 {
     background-color: #3b82f6;
     transform: translateY(-2px);
 }
+
+.choice-button {
+    background-color: #4b5563;
+    color: #f3f4f6;
+    font-size: 3rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.choice-button:hover {
+    background-color: #6b7280;
+    transform: translateY(-4px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.result-text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    min-height: 2rem; /* Reserve space to prevent layout shifts */
+}
+
+.score-display {
+    font-size: 1.25rem;
+    margin-top: 1rem;
+}
