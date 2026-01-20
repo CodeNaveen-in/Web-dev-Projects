@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html {
+        font-size: 5rem;
+      }
+      section {
+        text-align: center;
+      }
+
+      button {
+        background-color: lightblue;
+        color: black;
+        border-radius: 12px;
+        border: 0px;
+        padding: 20px;
+      }
+
+      #Toggle {
+        padding: 30px;
+        font-size: large;
+        background-color: cornsilk;
+      }
+
+      .light {
+        background-color: bisque;
+        color: black;
+      }
+
+      .dark {
+        background-color: black;
+        color: antiquewhite;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h1>JAVASCRIPT PRACTICE</h1>
+      <p>look into console 👉</p>
+
+      <button id="Toggle">Toggle</button>
+    </section>
+
+    <section>
+      <div id="info">Original Text</div>
+      <button onclick="editText()">Edit Text</button>
+      <button onclick="changeStyle()">Change Style</button>
+
+      <div id="container"></div>
+      <button onclick="addItem()">Add Item</button>
+      <button onclick="removeItem()">Remove Last Item</button>
+    </section>
+
+  </body>
+  <script src="eighth.js"></script>
+</html>

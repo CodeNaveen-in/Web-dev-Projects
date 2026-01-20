@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock - Paper - Scissors</title>
+    <link rel="stylesheet" href="../main.css">
+</head>
+<body class="bg">
+    <section id="main">
+        <h1 >Rock Paper Scissors</h1>
+        <p >Choose your move to play against the computer!</p>
+
+        <!-- Use a single parent div for event delegation -->
+        <div id="button-wrapper">
+            <button id="rock" class="choice-button">👊</button>
+            <button id="paper" class="choice-button">🖐️</button>
+            <button id="scissors" class="choice-button">✌️</button>
+        </div>
+
+        <p id="result" class="result-text"></p>
+        <div id="scores" class="score-display">
+            <p>Your score: <span id="user-score">0</span></p>
+            <p>Computer score: <span id="computer-score">0</span></p>
+        </div>
+    </section>
+    <section class="feature">
+        <p class="about">The aim is to make a Rock paper scissors game</p>
+        <ol>
+            <li>Click on your choice</li>
+            <li>See the result and play more if want to</li>
+        </ol>
+    </section>
+
+    <script src="./index.js"></script>
+</body>
+</html>

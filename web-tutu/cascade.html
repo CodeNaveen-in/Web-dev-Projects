@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .bg-part1 {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f4f4f4;
+      } 
+      .bg-part2 {
+        background-image: url("https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190417124305/250.png");
+        background-attachment: fixed;
+      }
+      .bg-part3 {
+        background-image:
+        url("https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190417124305/250.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        
+      }
+      .container {
+        text-align: center;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+      }
+      @media (max-width: 600px) {
+        .container {
+          padding: 10px;
+        }
+        h2 {
+          font-size: 1.5em;
+        }
+        p {
+          font-size: 1em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class=" bg-part1 container">
+      <h2>Responsive Design Example</h2>
+      <img
+        src="https://media.geeksforgeeks.org/wp-content/uploads/20231106133657/gfg_logo.png"
+        alt="Logo"
+      />
+      <p>Resize the browser window to see the responsive effect.</p>
+    </div>
+
+    <div class="bg-part2">
+            <h1>Geeksforgeeks</h1>
+            <p>Nothing much to add here but to simply blockify the stuff</p>
+    </div>
+
+    <div class="bg-part3">
+        <h1>Background Image is Centre</h1>
+        <p>Nothing much to add here but to simply blockify the stuff</p>
+    </div>
+  </body>
+</html>

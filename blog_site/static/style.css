@@ -1,0 +1,84 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: antiquewhite;
+}
+
+nav {
+    background-color: black;
+    place-items: center;
+    font-family: monospace;
+    color: antiquewhite;
+    display: grid;
+    grid-template-columns: 1fr 9fr 2fr;
+    border-radius: 16px ;
+}
+
+button {
+    margin: 12px 20px;
+    padding: 12px 20px;
+    font-size: 2rem;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 12px;
+}
+
+button:hover {
+    background-color: burlywood;
+}
+
+.but-sec {
+    background-color: antiquewhite;
+    color: black;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+    margin: 0px 150px ;
+}
+
+.news-card {
+  background-color: #f7f6f4;         /* White card background */
+  color: #000000;                    /* Black text */
+  border: 1px solid #ccc;            /* Light grey border */
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 700px;
+  min-width: 200px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.05); /* soft shadow */
+  font-family: 'Helvetica Neue', sans-serif;
+  border-radius: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.news-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.1); /* elevated effect */
+  background-color: rgb(245, 237, 228);
+}
+
+.news-card h2 {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.news-card p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.news-card img {
+  width: 100%;
+  height: auto;
+  margin: 10px 0;
+  border-radius: 4px;
+}

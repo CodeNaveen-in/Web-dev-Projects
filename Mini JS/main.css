@@ -1,0 +1,358 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Henny+Penny&display=swap');
+
+/* Import Material Icons */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+/* Import Material Outline Icons */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons+Outlined');
+
+/* Define your color palette */
+:root {
+  --lemon-lime: #ecff56ff;
+  --alabaster: #f1f1e8ff;
+  --fluorescent-cyan: #7bfdecff;
+  --gray: #7f7f7fff;
+  --white: #ffffffff;
+  --raisin-black: #212023ff;
+  --jet: #343436ff;
+}
+
+/* Icons usage sets */
+.material-icons {
+  font-size: 24px;
+  vertical-align: middle;
+  color: var(--raisin-black);
+}
+
+.material-icons-outlined {
+  font-size: 24px;
+  vertical-align: middle;
+  color: var(--jet);
+}
+
+.material-icons-white {
+  color: var(--white);
+}
+
+.material-icons-lemon {
+  color: var(--lemon-lime);
+}
+
+.material-icons-outlined-gray {
+  color: var(--gray);
+}
+
+button {
+  font-size: 18px;
+  font-family: 'Source Code Pro';
+  font-weight: 700;
+  background-color: var(--lemon-lime);
+  padding: 16px 24px;
+  border-radius: 50px;
+  max-width: 50vw;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Source Code Pro';
+}
+
+input, label {
+  font-size: 18px;
+  padding: 16px;
+  border-radius: 16px;
+  border: 2px solid gray;
+  color: var(--raisin-black);
+  max-width: 70vw;
+}
+
+label{
+  border: 0;
+  padding: 0px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 40vw;
+}
+
+section {
+  transition: transform 0.4s ease-in-out;
+  padding: 40px;
+  margin: 50px;    
+  border-radius: 50px;
+}
+
+section:hover {
+  transform: scale(1.2);
+  transform-origin: center;
+}
+
+li{
+  font-size: 18px;
+}
+
+.bg {
+  background-color: var(--alabaster);
+  background-image:  linear-gradient(#7f7f7f 0.9px, transparent 0.9px), linear-gradient(to right, #7f7f7f 0.9px, #f1f1e8 0.9px);
+  background-size: 18px 18px;
+  display: flex;
+  flex-flow: wrap column;
+  align-items: center;
+  justify-items: center;
+}
+
+#main {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+}
+
+h1,h3,h5 {
+  text-align: center;
+  font-family: 'Henny Penny';
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: 'Henny Penny';
+}
+
+.feature {
+  background-color: var(--lemon-lime);
+  box-shadow: 16px 8px 8px var(--gray);
+}
+
+.about {
+  font-size: 1.3rem;
+  line-height: 123%;
+  text-align: center;
+  text-decoration: wavy;
+}
+
+.recipe-card {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 400px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.recipe-card:hover {
+  transform: scale(1.02);
+}
+
+.recipe-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.recipe-card h3 {
+  font-size: 1.4rem;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.recipe-card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.recipe-card a {
+  color: var(--jet);
+  font-size: larger;
+  font-weight: 600;
+  padding: 10px;
+  text-decoration: none;
+}
+
+#dice {
+  text-align: center;
+  font-weight: 500;
+  font-size: 6rem;
+}
+
+.roll-animation {
+    /* Instantly rotate the image when the class is added */
+    transform: rotate(360deg);
+    /* Make the transition smooth over 1 second */
+    transition: transform 1s ease-in-out;
+}
+
+#Result li {
+  text-align: center;
+  font-size: 2rem;
+  background-color: var(--gray);
+  padding: 8px 24px;
+  margin: 16px;
+  font-weight: 400;
+  border-radius: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* background: linear-gradient(135deg, #1f2937, #111827); */
+    color: #d1d5db;
+}
+
+/* Styling for the main timer card */
+.timer-card {
+    background-color: #1f2937;
+    padding: 2.5rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+/* Styling for the timer text */
+.timer-display {
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+    margin-top: 1rem;
+    color: #f3f4f6;
+}
+
+/* Styling for the buttons */
+.button-wrapper {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.action-button {
+    padding: 0.75rem 2rem;
+    font-weight: 600;
+    border-radius: 0.75rem;
+    transition: all 0.2s ease-in-out;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    color: #d1d5db;
+}
+
+#start {
+    background-color: #4ade80;
+    color: #1f2937;
+}
+#start:hover {
+    background-color: #22c55e;
+    transform: translateY(-2px);
+}
+
+#stop {
+    background-color: #f87171;
+    color: #1f2937;
+}
+#stop:hover {
+    background-color: #ef4444;
+    transform: translateY(-2px);
+}
+
+#reset {
+    background-color: #60a5fa;
+    color: #1f2937;
+}
+#reset:hover {
+    background-color: #3b82f6;
+    transform: translateY(-2px);
+}
+
+.choice-button {
+    background-color: #4b5563;
+    color: #f3f4f6;
+    font-size: 3rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.choice-button:hover {
+    background-color: #6b7280;
+    transform: translateY(-4px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.result-text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    min-height: 2rem; /* Reserve space to prevent layout shifts */
+}
+
+.score-display {
+    font-size: 1.25rem;
+    margin-top: 1rem;
+}
+
+/*Movie Trailer Popup*/
+/* --- Modal Style --- */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(5px);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modal-content {
+  position: relative;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 800px;
+  width: 90%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.modal-content video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.close-button {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  font-size: 24px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* --- Inline Close Button Style --- */
+.inline-close {
+  display: block;
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+}
