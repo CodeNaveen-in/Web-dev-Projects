@@ -27,3 +27,29 @@ Feel free to **add your own project** by submitting a **Pull Request** 🚀
 1. Fork the repository
 2. Add your project with proper structure
 3. Open a Pull Request
+
+## 📁 Project Structrure
+```bash
+Web-Dev-Projects/
+│
+├── index.html          # Main hub page
+├── css/
+│   └── style.css
+│
+├── js/
+│   ├── main.js         # Navigation / project loader
+│   │
+│   ├── projects/
+│   │   ├── counter.js
+│   │   ├── todo.js
+│   │   ├── calculator.js
+│   │   └── clock.js
+│   │
+│   └── utils/
+│       └── helpers.js
+│
+├── assets/
+│   └── images/
+│
+└── README.md
+```
