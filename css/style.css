@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f4f6f8;
+  color: #333;
+}
+
+.header {
+  padding: 1rem;
+  background: #222;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#backBtn {
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+}
+
+.app {
+  padding: 2rem;
+  display: grid;
+  gap: 1rem;
+}
+
+/* buttons on home */
+.project-btn {
+  padding: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  background: #4f46e5;
+  color: white;
+  border-radius: 6px;
+}
+
+.project-btn:hover {
+  background: #4338ca;
+}
