@@ -1,4 +1,4 @@
-import { projects } from "./projects/projects.config.js";
+import { projects } from "./projects.config.js";
 import { clearApp } from "./utils/helpers.js";
 
 const app = document.getElementById("app");
