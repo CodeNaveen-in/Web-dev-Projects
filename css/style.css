@@ -157,6 +157,21 @@ a:hover {
 
 .btn-secondary:hover {
   background: #e5e7eb;
+  transform: translateY(-1px);
+  box-shadow: 0 12px 22px rgba(79, 70, 229, 0.4);
+}
+
+.btn-danger{
+  background-color: red;
+  color: whitesmoke;
+}
+
+.btn-danger:hover {
+  background-color: whitesmoke;
+  color: red;
+  border: 1px solid red;
+  transform: translateY(-1px);
+  box-shadow: 0 12px 22px rgba(79, 70, 229, 0.4);
 }
 
 /* =========================
