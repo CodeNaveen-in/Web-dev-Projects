@@ -6,5 +6,9 @@ export const projects = [
   {id: "5", title: "Recipe Book", file: "recipe_Book.js"},
   {id: "6", title: "Dice Roll Simulator", file: "dice_Roll.js"},
   {id: "7", title: "Pomodoro Timer", file: "pomo_Timer.js"},
-  {id: "8", title: "Rock Paper Scissors", file: "ro_Pa_Scissors.js"}
+  {id: "8", title: "Rock Paper Scissors", file: "ro_Pa_Scissors.js"},
+  {id: "9", title: "Stopwatch", file: "stopwatch.js"},
+  {id: "10", title: "Weight Converter", file : "weight_Calculator.js"},
+  {id: "11", title: "Video Trailer Popup", file: "video_Trailer.js"},
+  {id: "12", title: "Tabs Section", file: "tabs_Section.js"}
 ];
