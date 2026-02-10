@@ -10,5 +10,7 @@ export const projects = [
   {id: "9", title: "Stopwatch", file: "stopwatch.js"},
   {id: "10", title: "Weight Converter", file : "weight_Calculator.js"},
   {id: "11", title: "Video Trailer Popup", file: "video_Trailer.js"},
-  {id: "12", title: "Tabs Section", file: "tabs_Section.js"}
+  {id: "12", title: "Tabs Section", file: "tabs_Section.js"},
+  {id: "13", title: "Sticky Navbar", file: "sticky_Navbar.js"},
+  {id: "14", title: "Step Progress Bar", file: "st_Pro_Bar.js" }
 ];
