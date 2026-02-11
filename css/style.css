@@ -68,7 +68,7 @@ body {
   justify-content: flex-start;
 }
 
-input, select {
+input, select, textarea {
   width: 100%;
   padding: 0.6rem 0.75rem;
   font-size: 0.95rem;
@@ -78,7 +78,7 @@ input, select {
   transition: border 0.2s ease, box-shadow 0.2s ease;
 }
 
-input:focus, select:focus:focus {
+input:focus, select:focus, textarea:focus {
   outline: none;
   border-color: #4f46e5;
   box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.15);
@@ -222,7 +222,7 @@ a:hover {
     line-height: 1.7;
   }
 
-  input, select {
+  input, select, textarea {
     font-size: 1.05rem;
     padding: 0.8rem 0.9rem;
   }
@@ -270,7 +270,7 @@ a:hover {
     font-size: 1.1rem;
   }
 
-  input, select {
+  input, select, textarea {
     font-size: 1.1rem;
     padding: 0.9rem 1rem;
   }

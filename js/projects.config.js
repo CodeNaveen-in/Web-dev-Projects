@@ -14,5 +14,9 @@ export const projects = [
   {id: "13", title: "Sticky Navbar", file: "sticky_Navbar.js"},
   {id: "14", title: "Step Progress Bar", file: "st_Pro_Bar.js" },
   {id: "15", title: "Social Media Selector Menu", file: "sm_Menu.js"},
-  {id: "16", title: "Sidebar Menu", file: "sidebar.js"}
+  {id: "16", title: "Sidebar Menu", file: "sidebar.js"},
+  {id: "17", title: "Real Time Character Counter", file: "char_Counter.js"},
+  {id: "18", title: "Random Quote Generator", file: "ra_Quote.js"},
+  {id: "19", title: "Random Photos", file: "ra_Photos.js"},
+  {id: "20", title: "Random Password Generator", file: "ra_Password.js"}
 ];
