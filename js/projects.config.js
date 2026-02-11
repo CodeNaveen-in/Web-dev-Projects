@@ -12,5 +12,6 @@ export const projects = [
   {id: "11", title: "Video Trailer Popup", file: "video_Trailer.js"},
   {id: "12", title: "Tabs Section", file: "tabs_Section.js"},
   {id: "13", title: "Sticky Navbar", file: "sticky_Navbar.js"},
-  {id: "14", title: "Step Progress Bar", file: "st_Pro_Bar.js" }
+  {id: "14", title: "Step Progress Bar", file: "st_Pro_Bar.js" },
+  {id: "15", title: "Social Media Selector Menu", file: "sm_Menu.js"}
 ];
