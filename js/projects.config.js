@@ -19,4 +19,10 @@ export const projects = [
   {id: "18", title: "Random Quote Generator", file: "ra_Quote.js"},
   {id: "19", title: "Random Photos", file: "ra_Photos.js"},
   {id: "20", title: "Random Password Generator", file: "ra_Password.js"}
+
+  ,{id: "21", title: "Random Emoji Generator", file: "ra_emoji.js"}
+  ,{id: "22", title: "Random Color Generator", file: "ra_color.js"}
+  ,{id: "23", title: "Questions and Answers", file: "q_Answers.js"}
+  ,{id: "24", title: "Profile Statistics", file: "pro_Stats.js"}
+  ,{id: "25", title: "Photo Gallery", file: "ph_Gallery.js"}
 ];
