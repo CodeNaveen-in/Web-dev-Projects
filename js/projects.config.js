@@ -25,4 +25,9 @@ export const projects = [
   ,{id: "23", title: "Questions and Answers", file: "q_Answers.js"}
   ,{id: "24", title: "Profile Statistics", file: "pro_Stats.js"}
   ,{id: "25", title: "Photo Gallery", file: "ph_Gallery.js"}
+  ,{id: "26", title: "Note Taking App", file: "note_App.js"}
+  ,{id: "27", title: "Repsonsive Navbar", file: "res_Navbar.js"}
+  ,{id: "28", title: "Multiplication App", file: "mul_App.js"}
+  ,{id: "29", title: "Mouse Location", file: "mouse_Position.js"}
+  ,{id: "30", title: "Month Calendar", file: "month_Calendar.js"}
 ];
