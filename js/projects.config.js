@@ -35,4 +35,9 @@ export const projects = [
   ,{id: "33", title: "Loading Bar", file: "loading_Bar.js"}
   ,{id: "34", title: "Image Slider", file: "img_Slider.js"}
   ,{id: "35", title: "Image Search", file: "img_Search.js"}
+  ,{id: "36", title: "Heart Trail Animation", file: "he_Animation.js"}
+  ,{id: "37", title: "Feedback UI", file: "fee_UI.js"}
+  ,{id: "38", title: "English Dictionary", file: "eng_Dictionary.js"}
+  ,{id: "39", title: "Emoji Rating", file: "emo_Rating.js"}
+  ,{id: "40", title: "Drum Kits", file : "drum_Kits.js"}
 ];
