@@ -51,4 +51,9 @@ export const projects = [
   ,{id: "48", title: "Blurred Background Popup", file: "blur_Bg_Popup.js"}
   ,{id: "49", title: "Background Video", file: "bg_Video.js"}
   ,{id: "50", title: "Auto Career Animation", file: "auto_Animation.js"}
+  ,{id: "51", title: "Animated Search Bar", file: "ani_Search_Bar.js"}
+  ,{id: "52", title: "Anime Picture Generator", file: "anime_Pic.js"}
+  ,{id: "53", title: "Animated Image Circle", file: "ani_Img_Circle.js"}
+  ,{id: "54", title: "Basic Calculator", file: "basic_Calculator.js"}
+  ,{id: "55", title: "Backgorund Image Scroll", file: "bg_Image_Scroll.js"}
 ];
