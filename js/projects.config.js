@@ -40,4 +40,10 @@ export const projects = [
   ,{id: "38", title: "English Dictionary", file: "eng_Dictionary.js"}
   ,{id: "39", title: "Emoji Rating", file: "emo_Rating.js"}
   ,{id: "40", title: "Drum Kits", file : "drum_Kits.js"}
+
+  ,{id: "41", title: "Double Landing Page", file: "do_La_Page.js"}
+  ,{id: "42", title: "Dark Mode Toggle", file: "dark_mo_Toggle.js"}
+  ,{id: "43", title: "Dad Joke Generator", file: "dad_jo_Generator.js"}
+  ,{id: "44", title: "Currency Converter", file: "currency_Calculator.js"}
+  ,{id: "45", title: "Click Counter", file: "click_Counter.js"}
 ];
