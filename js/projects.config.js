@@ -46,4 +46,9 @@ export const projects = [
   ,{id: "43", title: "Dad Joke Generator", file: "dad_jo_Generator.js"}
   ,{id: "44", title: "Currency Converter", file: "currency_Calculator.js"}
   ,{id: "45", title: "Click Counter", file: "click_Counter.js"}
+  ,{id: "46", title: "Button Ripple Effect", file: "button_Ripple.js"}
+  ,{id: "47", title: "BMI Calculator", file: "bmi_Calculator.js"}
+  ,{id: "48", title: "Blurred Background Popup", file: "blur_Bg_Popup.js"}
+  ,{id: "49", title: "Background Video", file: "bg_Video.js"}
+  ,{id: "50", title: "Auto Career Animation", file: "auto_Animation.js"}
 ];
