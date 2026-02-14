@@ -56,4 +56,9 @@ export const projects = [
   ,{id: "53", title: "Animated Image Circle", file: "ani_Img_Circle.js"}
   ,{id: "54", title: "Basic Calculator", file: "basic_Calculator.js"}
   ,{id: "55", title: "Backgorund Image Scroll", file: "bg_Image_Scroll.js"}
+  ,{id: "56", title: "Clock Digital", file: "clock_Digital.js"}
+  ,{id: "57", title: "Clock Analogue", file: "clock_Analogue.js"}
+  ,{id: "58", title: "Countdown New Year", file: "count_NewYear.js"}
+  ,{id: "59", title: "Todo list", file: "todo_List.js"}
+  ,{id: "60", title: "Weather App", file: "weather_App.js"}
 ];
